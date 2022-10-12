@@ -35,6 +35,7 @@ header h3 {
 font-size: 125%;
 padding-bottom: .75em;
 }
+
 /* Navigation menu */
 #nav_menu {
 clear: left;
@@ -84,6 +85,7 @@ background-color: orange;
 padding: .5em 0;
 color: black;
 }
+
 /* Section */
 section {
     padding: 2em 5%;
@@ -110,6 +112,7 @@ section a:link, main a:visited {
 section a:hover, main a:focus {
     color: green;
 }
+
 /* Footer */
 footer {
 border-top: 2px solid black;
@@ -123,6 +126,7 @@ text-align: center;
 #mobile_menu {
 display: none;
 }
+
 @media only screen and (max-width: 800px) {
 html {
 background-image: none;
@@ -132,6 +136,7 @@ font-size: 90%;
 box-shadow: none;
 }
 }
+
 @media only screen and (max-width: 667px) {
 #nav_menu {
 display: none;
@@ -142,8 +147,9 @@ display: block;
   
 header h2 {
 font-size: 200%;
+ }
 }
-}
+
 @media only screen and (max-width: 479px) {
 header h2 {
 font-size: 180%;
